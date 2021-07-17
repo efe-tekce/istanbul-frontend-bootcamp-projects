@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel:wght@600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Martel", serif;
+  background-color: rgba(29, 112, 112, 0.945);
+}
+
+form {
+  padding: 20px;
+  background-color: rgba(76, 0, 130, 0.308);
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.384);
+}
+
+input {
+  font-family: inherit;
+}
+form > h1 {
+  text-align: center;
+  color: rgba(24, 7, 7, 0.699);
+}
+.form-body {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.form-body > div {
+  margin-top: 10px;
+}
+.form-body div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.form-body div label {
+  padding-left: 20px;
+  color: rgba(128, 128, 128, 0.986);
+  font-weight: 900;
+}
+
+button {
+  width: 100%;
+  background-color: rgba(128, 128, 128, 0.699);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: help;
+  color: #ffff;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.459);
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  outline: none;
+  padding: 5px 20px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  font-size: 16px;
+}

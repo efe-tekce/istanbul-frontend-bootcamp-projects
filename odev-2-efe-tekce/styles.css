@@ -1,0 +1,40 @@
+body {
+  background-color: rebeccapurple;
+}
+
+.bold {
+  font-weight: 900;
+}
+.bar {
+  display: flex;
+  justify-content: center;
+}
+
+button,
+label,
+input {
+  margin: 10px;
+}
+
+li {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 2em;
+}
+
+li span {
+  margin: 0px 10px 0px 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: papayawhip;
+  border: none;
+  border-radius: 2em;
+}
+
+label,
+input {
+  align-self: center;
+}

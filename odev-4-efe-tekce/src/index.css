@@ -1,0 +1,10 @@
+form {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: 0 auto 20px;
+}
+
+ul {
+  list-style: none;
+}
